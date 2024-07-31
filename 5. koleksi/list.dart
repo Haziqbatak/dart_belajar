@@ -51,6 +51,10 @@ void main() {
   namaSiswa.remove('budi');
   print(namaSiswa);
 
+  //menghapus elemen dari list dengan kondisi
+  namaSiswa.removeWhere((element) => element.contains('nathan'));
+  print(namaSiswa);
+
   //remove elemen berdasarkan index
   //mengunakan removeAt
 
