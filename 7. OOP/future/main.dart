@@ -14,6 +14,7 @@ void main(List<String> args) async {
 
   //menjalankan error
   try {
+    //menjalankan kode yang mungkin error
     var order = await Future.error(Exception("Out Of Coffee"));
     print("Your Coffee Order: $order");
   } catch (e) {
