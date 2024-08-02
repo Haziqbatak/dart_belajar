@@ -16,4 +16,5 @@ void main(List<String> args) {
   //memanggil fungsi high order
   calculate(7, 3, add);
   calculate(7, 3, subtract);
+  
 }
